@@ -1,0 +1,21 @@
+.home-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    &__image{
+        
+        height: 500px;
+        width: 100vw;
+        
+    }
+    &__data{
+        display: flex;
+        justify-content: center;
+        gap: 15%;
+        flex-direction: row;
+        width: 100vw;
+        position: absolute;
+        top: 250px;
+    }
+}

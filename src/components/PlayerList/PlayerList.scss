@@ -1,0 +1,62 @@
+.list{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+    background-color: #EBF1EA;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 10px;
+    &__header{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    &__columns{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 75%;
+    }
+    &__title{
+        position: absolute;
+        bottom: 90%;
+        right: 72%;
+        width: 350px;
+        background-color: black;
+        padding: 10px 10px 10px 25px;
+        color: white;
+        border-radius: 10px;
+    }
+    &__data{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    &__player{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 150px 0 75px;
+        width: 62%;
+        margin-left: 20px;
+        &-image{
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            position: absolute;
+        }
+    }
+    
+}

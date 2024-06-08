@@ -1,0 +1,67 @@
+.user-page{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    &__profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #E8E8E8;
+        width: 18%;
+        gap: 20px;
+        &-image{
+            margin-top: 60px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        &-mod{
+            color: #0F4314;
+            text-decoration: none;
+            text-decoration: underline;
+        }
+    }
+    &__bloked{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    &__editable{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        select {
+            margin-bottom: 20px;
+        }
+        margin-top: 50px;
+    } 
+    &__input{
+        border: 1px solid rgba(0, 0, 0, 0.2); /* Borde negro con 50% de transparencia */
+        border-radius: 5px; /* Borde redondeado opcional */
+        outline: none; 
+        height: 25px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 12px;
+        padding: 3px 7px;
+        margin-bottom: 20px;
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px; 
+        height: 45px;
+        border: 0;
+        background-color: #0F4314;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+    &__data{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

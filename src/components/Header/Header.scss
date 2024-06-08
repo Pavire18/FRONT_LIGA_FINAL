@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #e7efe4;
+  padding: 20px;
+
+  &__title {
+    font-size: 20px;
+    border-left: 6px solid #0f4314;
+    padding: 0px 10px;
+    width: fit-content;
+  }
+  &__links {
+    border: 2px solid black;
+    padding: 5px 15px;
+  }
+  &__link {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.player {
+  background-color: #e7efe4;
+}
+.delegate {
+  background-color: #B4D2FF;
+}
+.admin {
+  background-color: #F9CD8B;
+}
